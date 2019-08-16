@@ -1,0 +1,42 @@
+=> Admin
+- Superadmin
+=> Fitur Utama Admin SuperAdmin
+- Mengontrol User (Secara Keseluruh | CRUD)
+- Mengontrol Master Data Umum (agama, kecamatan, kelurahan, kewarga negaraan, kota, perkawinan, provinsi)
+- Mengontrol Master Data User (level user, hak akses guest, gedung, lantai, ruangan)
+- Dapat menggunakan fitur utama admin user
+- Mengontrol Data Device + API
+
+- User
+=> Fitur Utama Admin User
+- Mengontrol User Guest (CRUD)
+- Menentukan Hak Akses User Guest
+
+=> Guest(Monitoring)
+- Menampilkan seluruh gedung dalam kampus
+- Dapat memilih gedung
+- Menampilkan seluruh lantai dalam gedung
+- Dapat memilih lantai
+- Menampilkan seluruh ruangan pada lantai
+- Dapat memilih ruangan
+
+=> Fitur Utama Guest
+- Menampilkan data secara global (akumulasi seluruh gedung)
+- Menampilkan data untuk satu buah gedung (akumulasi seluruh lantai)
+- Menampilkan data untuk satu buah lantai (akumulasi seluruh ruangan yang ada pada lantai)
+- Menampilkan data untuk satu buah ruangan
+
+=> Pada tiap fitur utama dapat menampilkan graphicnya dalam jangka waktu
+- Jam
+- Hari
+- Minggu
+- Bulan
+
+=> Data
+- Tegangan 	-> Fase 1,2,3 total
+- Arus		-> Total
+- Frekuensi	-> Total
+- Power Faktor	-> Fase 1,2,3 total
+- Power		-> Fase 1,2,3 total
+- KWH 		-> Total
+- KVAR		-> Total
